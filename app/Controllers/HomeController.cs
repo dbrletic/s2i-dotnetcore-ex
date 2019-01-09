@@ -17,7 +17,7 @@ namespace app.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Example running a .Net Core Application";
+            ViewData["Message"] = "Your application description page.";
 
             return View();
         }
